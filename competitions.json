@@ -84,7 +84,7 @@
                ]
     },
     {"name": "Birmingham International",
-     "date": "March 2018",
+     "date": "31st March 2018",
      "events": [
                 {"weapon": "ME", "url": "http://www.engarde-service.com/files/bift/2018/me"},
                 {"weapon": "MF", "url": "http://www.engarde-service.com/files/bift/2018/mf"},
@@ -128,7 +128,7 @@
                ]
     },
     {"name": "Glasgow Open",
-     "date": "7thMarch 2018",
+     "date": "7th March 2018",
      "events": [
                {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/glasgow_open_2018_mf_res.htm"},
                {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/glasgow_open_2018_lf_res.htm"},
@@ -724,7 +724,7 @@
                ]
     },
     {"name": "Cambridge Winter Tournament",
-     "date": "7th Januaray 2017",
+     "date": "7th January 2017",
      "events": [
                {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/cwt_mf_2017.pdf"},
                {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/cwt_wf_2017.pdf"},
