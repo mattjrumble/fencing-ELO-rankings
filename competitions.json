@@ -1,0 +1,888 @@
+[
+    {"name": "Norfolk Open",
+     "date": "21st-22nd July 2018",
+     "events": [
+               {"weapon": "MF", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/MF18-RANKING.docx"},
+               {"weapon": "WF", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/WF18-RANKING.docx"},
+               {"weapon": "ME", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/ME18-RANKING.docx"},
+               {"weapon": "WE", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/WE18-RANKING.docx"},
+               {"weapon": "MS", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/MS18-RANKING.docx"},
+               {"weapon": "WS", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/WS18-RANKING.docx"}
+               ]
+    },
+    {"name": "The GB Cup",
+     "date": "23rd June 2018",
+     "events": [
+                {"weapon": "ALL", "url": "https://www.britishfencing.com/wp-content/uploads/2018/08/GB-Cup-Results-.xlsx"}
+               ]
+    },
+    {"name": "Chichester Open",
+     "date": "9th-10th June 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/chichester_open_2018_mf.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/chichester_open_2018_wf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/chichester_open_2018_me.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/chichester_open_2018_we.htm"}
+               ]
+    },
+    {"name": "Bexley Open",
+     "date": "2nd June 2018",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/bexley_open_2018_mens_epee_results.xls"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/bexley_open_2018_womens_epee_results.xls"}
+               ]
+    },
+    {"name": "Wellington Open",
+     "date": "19th May 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/wo_2018_mens_foil.pdf"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/wo_2018_womens_foil.pdf"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/wo_2018_mens_epee.pdf"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/wo_2018_womens_epee.pdf"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/wo_2018_mens_sabre.pdf"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/wo_2018_womens_sabre.pdf"}
+               ]
+    },
+    {"name": "Peter Frohlich Cup",
+     "date": "28th April 2018",
+     "events": [
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/peter_frohlich_cup_2018_clasgeneral.htm"}
+               ]
+    },
+    {"name": "Mike Matthews Cup",
+     "date": "28th April 2018",
+     "events": [
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/mike_matthews_cup_2018_clasgeneral.htm"}
+               ]
+    },
+    {"name": "Leicester Open",
+     "date": "7th-8th April 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/leices_open_2018_seniormensfoil.html"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/leices_open_2018_seniorwomensfoil.html"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/leices_open_2018_seniormensepee.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/leices_open_2018_seniorwomensepee.html"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/leices_open_2018_seniormenssabre.html"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/leices_open_2018_seniorwomenssabre.html"}
+               ]
+    },
+    {"name": "British Fencing Championships",
+     "date": "14th-15th April 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/bfc_2018_mf_clasgeneral.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/bfc_2018_wf_clasgeneral.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/bfc_2018_me_clasgeneral.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/bfc_2018_we_clasgeneral.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/bfc_2018_ms_clasgeneral.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/bfc_2018_ws_clasgeneral.htm"}
+               ]
+    },
+    {"name": "Mens Elite Epee Series 3",
+     "date": "8th April 2018",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/ee3_mens_epee.html"}
+               ]
+    },
+    {"name": "Birmingham International",
+     "date": "March 2018",
+     "events": [
+                {"weapon": "ME", "url": "http://www.engarde-service.com/files/bift/2018/me"},
+                {"weapon": "MF", "url": "http://www.engarde-service.com/files/bift/2018/mf"},
+                {"weapon": "MS", "url": "http://www.engarde-service.com/files/bift/2018/ms"},
+                {"weapon": "WE", "url": "http://www.engarde-service.com/files/bift/2018/we"},
+                {"weapon": "WF", "url": "http://www.engarde-service.com/files/bift/2018/wf"},
+                {"weapon": "WS", "url": "http://www.engarde-service.com/files/bift/2018/ws"}
+               ]
+    },
+    {"name": "Invicta Open",
+     "date": "17th-18th March 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/invicta_2018_mf.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/invicta_2018_wf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/invicta_2018_me.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/invicta_2018_we.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/invicta_2018_ms.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/invicta_2018_ws.htm"}
+               ]
+    },
+    {"name": "Leon Paul Novice Open",
+     "date": "10th March 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/lpno_2018_mf_clasgeneral.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/lpno_2018_wf_clasgeneral.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/lpno_2018_me_clasgeneral.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/lpno_2018_we_clasgeneral.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/lpno_2018_ms_clasgeneral.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/lpno_2018_ws_clasgeneral.htm"}
+               ]
+    },
+    {"name": "Edinburgh Open",
+     "date": "10th-11th March 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/edinburgh_open_2018_seniormensfoil2.html"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/edinburgh_open_2018_seniorwomensfoil2.html"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/edinburgh_open_2018_seniormensepee2.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/edinburgh_open_2018_seniorwomensepee2.html"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/edinburgh_open_2018_seniormenssabre2.html"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/edinburgh_open_2018_seniorwomenssabre2.html"}
+               ]
+    },
+    {"name": "Glasgow Open",
+     "date": "7th-8th March 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/glasgow_open_2018_mf_res.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/glasgow_open_2018_lf_res.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/glasgow_open_2018_me_res.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/glasgow_open_2018_we.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/glasgow_open_2018_ms_res.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/glasgow_open_2018_ls_res.htm"}
+               ]
+    },
+    {"name": "Lancaster Open",
+     "date": "3rd-4th March 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/lancs18mf-html.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/lancs18wf-html.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/lancs18me-html.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/lancs18we-html.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/lancs18ms-html.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/lancs18ws-html.htm"}
+               ]
+    },
+    {"name": "Elite Epee Womens Series Event 2",
+     "date": "24th February 2018",
+     "events": [
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/senior_womens_event_2.html"}
+               ]
+    },
+    {"name": "Elite Epee Mens Series Event 2",
+     "date": "18th February 2018",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/event_2_senior_mens_epee.html"}
+               ]
+    },
+    {"name": "Merseyside Open",
+     "date": "10th-11th February 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/moft2018mfrankings.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/moft2018wfrankings.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/moft2018merankings.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/moft2018werankings.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/moft2018msrankings.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/moft2018wsrankings.htm"}
+               ]
+    },
+    {"name": "Northern Ireland Open",
+     "date": "20th-21st January 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/nio18mf.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/nio18wf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/nio18me.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/nio18we.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/nio18ms.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/nio18ws.htm"}
+               ]
+    },
+    {"name": "Aldershot Open",
+     "date": "13th-14th January 2018",
+     "events": [
+               {"weapon": "MF", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/aldershot_open_18_mf.pdf"},
+               {"weapon": "WF", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/aldershot_open_18_wf.pdf"},
+               {"weapon": "ME", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/aldershot_open_18_me.pdf"},
+               {"weapon": "WE", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/aldershot_open_18_we.pdf"}
+               ]
+    },
+    {"name": "Cambridge Winter Tournament",
+     "date": "6th-7th January 2018",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/cwt_2018_mf.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/cwt_2018_wf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/cwt_2018_me.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/cwt_2018_we.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/cwt_2018_ms.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/cwt_2018_ws.htm"}
+               ]
+    },
+    {"name": "Millfield Elite Epee Weekend",
+     "date": "6th-7th January 2018",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/2018_elite_epee_mens_epee_event_1.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/2018_elite_epee_womens_epee_1.html"}
+               ]
+    },
+    {"name": "Elite Epee Grand Finals",
+     "date": "9th-10th December 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/elite_epee_grand_finals_2017_mens_grand_final_results.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/elite_epee_grand_finals_2017_womens_grand_final_results.html"}
+               ]
+    },
+    {"name": "Alice Ruggles Memorial Competition",
+     "date": "16th-17th December 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/alice_ruggles_memorial_competition_2017_me_clasgeneral.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/alice_ruggles_memorial_competition_2017_we_clasgeneral.htm"}
+               ]
+    },
+    {"name": "Oxfam Open",
+     "date": "9th-10th December 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/oxfam_open_mf.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/oxfam_open_wf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/oxfam_open_me.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/oxfam_open_we.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/oxfam_open_ms.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/oxfam_open_ws.htm"}
+               ]
+    },
+    {"name": "5th Leon Paul Open 2017",
+     "date": "???",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/5th_lp_open_2017_smf_clasgeneral.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/5th_lp_open_2017_swf_clasgeneral.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/5th_lp_open_2017_sme_clasgeneral.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/5th_lp_open_2017_swe_clasgeneral.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/5th_lp_open_2017_sms_clasgeneral.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/5th_lp_open_2017_sws_clasgeneral.htm"}
+               ]
+    },
+    {"name": "London Regions Capital Open",
+     "date": "2nd December 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/mens_foil_results.htm"},
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/mens_foil_plate_results.htm", "extra_info": "Plate"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/womens_foil_results.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/mens_epee_results.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/womens_epee_results.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/mens_sabre_results.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/womens_sabre_results.htm"}
+               ]
+    },
+    {"name": "Elite Epee Event 9",
+     "date": "19th November 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/ee_mens_event_9_2017.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/ee_womens_event_3_2017.html"}
+               ]
+    },
+    {"name": "Derry Open",
+     "date": "18th-19th November 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/do17mf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/do17me.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/do17ms.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/do17wf.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/do17we.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/do17ws.htm"}
+               ]
+    },
+    {"name": "M8 Open",
+     "date": "18th-19th November 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/m8_2017_mf_res.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/m8_2017_me_res.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/m8_2017_ms_res.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/m8_2017_lf_res.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/m8_2017_le_res.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/m8_2017_ls_res.htm"}
+               ]
+    },
+    {"name": "Welsh Open",
+     "date": "11th-12th November 2017",
+     "events": [
+               {"weapon": "MF", "url":  "https://www.welshfencing.org/results/welshopen2017/FTEvent62849024.htm"},
+               {"weapon": "WF", "url":  "https://www.welshfencing.org/results/welshopen2017/FTEvent62849028.htm"},
+               {"weapon": "ME", "url":  "https://www.welshfencing.org/results/welshopen2017/FTEvent62849027.htm"},
+               {"weapon": "WE", "url":  "https://www.welshfencing.org/results/welshopen2017/FTEvent62849025.htm"},
+               {"weapon": "MS", "url":  "https://www.welshfencing.org/results/welshopen2017/FTEvent62849029.htm"},
+               {"weapon": "WS", "url":  "https://www.welshfencing.org/results/welshopen2017/FTEvent62849026.htm"}
+               ]
+    },
+    {"name": "Cocks Moors Woods Epee Championships",
+     "date": "11th November 2017",
+     "events": [
+                {"weapon": "ME", "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2017/FTEvent10.htm"},
+                {"weapon": "WE", "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2017/FTEvent9.htm"}
+               ]
+    },
+    {"name": "Cumberland Open",
+     "date": "4th-5th November 2017",
+     "events": [
+                {"weapon": "ALL", "url": "http://britishfencing.com/uploads/files/cumberland_open_rankings.xlsx"}
+               ]
+    },
+    {"name": "North West Open",
+     "date": "21st-22nd October 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/nw17mf.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/nw17wf.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/nw17me.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/nw17we.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/nw17ms.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/nw17ws.htm"}
+               ]
+    },
+    {"name": "Scottish Open",
+     "date": "14th-15th October 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/scottish_open_2017_mensfoil.html"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/scottish_open_2017_womensfoil.html"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/scottish_open_2017_mensepee.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/scottish_open_2017_womensepee.html"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/scottish_open_2017_menssabre.html"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/scottish_open_2017_womenssabre.html"}
+               ]
+    },
+    {"name": "Bedford Open Epee",
+     "date": "8th October 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/bedford_epee_mens_-_final_results.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/bedford_epee_womens_2017_-_final_results.htm"}
+               ]
+    },
+    {"name": "17th Milner-Barry Cup",
+     "date": "8th October 2017",
+     "events": [
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/mb17_clasgeneral.htm"}
+               ]
+    },
+    {"name": "81st Miller Hallet Cup",
+     "date": "7th October 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/mh17_clasgeneral.htm"}
+               ]
+    },
+    {"name": "Newham Swords Foil Open",
+     "date": "7th October 2017",
+     "events": [
+               {"weapon": "MF", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/newham_mens_results.xlsx"},
+               {"weapon": "WF", "url":  "https://www.britishfencing.com/wp-content/uploads/2018/07/newham_foil_womens_results.xlsx"}
+               ]
+    },
+    {"name": "All Saints Open",
+     "date": "1st October 2017",
+     "events": [
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/all_saints_open_2017_seniormenssaber.html"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/all_saints_open_2017_seniorwomenssaber.html"}
+               ]
+    },
+    {"name": "Highland Open",
+     "date": "30th September-1st October 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/highland_open_2017_seniormensfoil.html"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/highland_open_2017_seniorwomensfoil.html"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/highland_open_2017_seniormensepee.html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/highland_open_2017_seniorwomensepee.html"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/highland_open_2017_seniormenssabre.html"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/highland_open_2017_seniorwomenssabre.html"}
+               ]
+    },
+    {"name": "Sussex Open",
+     "date": "30th September 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/sussex_open_epee_2017.htm"}
+               ]
+    },
+    {"name": "The 20th Hamlet Open Sabre",
+     "date": "23rd-24th September 2017",
+     "events": [
+               {"weapon": "MS", "url":  "http://engarde-service.com/files/shakespearesswords/hamlet2017/ms/"},
+               {"weapon": "WS", "url":  "http://engarde-service.com/files/shakespearesswords/hamlet2017/ws/"}
+               ]
+    },
+    {"name": "Leon Paul Cup MF Satellite",
+     "date": "17th September 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://fie.org/competitions/2018/392/results/rank"}
+               ]
+    },
+    {"name": "Elite Epee Event 7",
+     "date": "17th September 2017",
+     "events": [
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/2017_event_7_mens_epee.html"}
+               ]
+    },
+    {"name": "Manchester Sabre",
+     "date": "16th September 2017",
+     "events": [
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/manc-17-menssabre.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/manc-17-womenssabre.htm"}
+               ]
+    },
+    {"name": "Essex Open",
+     "date": "9th-10th September 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/essex_open_2017_mens_foil_final_ranking.html"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/essex_open_2017_womens_foil_final_ranking.html"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/essex_open_2017_mens_epee_final_ranking[1].html"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/essex_open_2017_womens_epee_final_ranking.html"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/essex_open_2017_mens_sabre_final_ranking.html"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/essex_open_2017_womens_sabre_final_ranking.html"}
+               ]
+    },
+    {"name": "Shropshire Open",
+     "date": "2nd-3rd September 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/shropshire_open_2017_mens_foil.htm"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/shropshire_open_2017_womens_foil.htm"},
+               {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/shropshire_open_2017_mens_epee.htm"},
+               {"weapon": "WE", "url":  "http://britishfencing.com/uploads/files/shropshire_open_2017_womens_epee.htm"},
+               {"weapon": "MS", "url":  "http://britishfencing.com/uploads/files/shropshire_open_2017_mens_sabre.htm"},
+               {"weapon": "WS", "url":  "http://britishfencing.com/uploads/files/shropshire_open_2017_womens_sabre.htm"}
+               ]
+    },
+    {"name": "Fencers Club London Open",
+     "date": "2nd September 2017",
+     "events": [
+               {"weapon": "MF", "url":  "http://britishfencing.com/uploads/files/fencers_club_london_2017_seniormensfoil.html"},
+               {"weapon": "WF", "url":  "http://britishfencing.com/uploads/files/fencers_club_london_2017_seniorwomensfoil.html"}
+               ]
+    },
+    {"name": "Leon Paul Summer Open",
+     "date": "19th-20th August 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_wehtm.htm"}
+              ]
+    },
+    {"name": "Elite Epee",
+     "date": "16th July 2017",
+     "events": [
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/e6_newcastle_mens_epee_2017.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/e6_newcastle_womens_epee_2017.html"}
+              ]
+    },
+    {"name": "Norfolk Open",
+     "date": "15th-16th July 2017",
+     "events": [
+               {"weapon": "MF", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/nfk_open_men_foil_2017.doc"},
+               {"weapon": "WF", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/norfolk_open_2017_women_foil.docx"},
+               {"weapon": "ME", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/nfk_open_men_epee_2017.doc"},
+               {"weapon": "WE", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/norfolk_open_2017_women_epee.docx"},
+               {"weapon": "MS", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/nfk_open_men_sabre_2017.doc"},
+               {"weapon": "WS", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/norfolk_open_2017_women_sabre.docx"}
+              ]
+    },
+    {"name": "Chichester Open",
+     "date": "10th-11th June 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/chichester_open_2017_mens_foil.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/chichester_open_2017_womens_foil.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/chichester_open_2017_mens_epee.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/chichester_open_2017_womens_epee.html"}
+              ]
+    },
+    {"name": "Wrexham Open",
+     "date": "10th June 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/wrexham_open_2017_mf.txt"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/wrexham_open_2017_wf.txt"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/wrexham_open_2017_me.txt"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/wrexham_open_2017_we.txt"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/wrexham_open_2017_ms.txt"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/wrexham_open_2017_ws.txt"}
+              ]
+    },
+    {"name": "Luton Open",
+     "date": "27th-28th May 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/luton_mf_2017_results.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/luton_wf_2017_results.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/luton_me_2017_results.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/luton_we_2017_results.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/luton_ms_2017_results.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/luton_ws_2017_results.html"}
+              ]
+    },
+    {"name": "Liverpool Open",
+     "date": "20th-21st May 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/liverpool_open_17_mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/liverpool_open_17_wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/liverpool_open_17_me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/liverpool_open_17_we.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/liverpool_open_17_ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/liverpool_open_17_ws.htm"}
+              ]
+    },
+    {"name": "Herts Open Sabre",
+     "date": "21st May 2017",
+     "events": [
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/herts_open_sabre_ms_2017.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/herts_open_sabre_2017_ws.htm"}
+              ]
+    },
+    {"name": "Wellington Open",
+     "date": "20th May 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/wo_2017_mensfoil.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/wo_2017_womensfoil.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/wo_2017_mensepee.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/wo_2017_womensepee.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/wo_2017_menssabre.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/wo_2017_womenssabre.html"}
+              ]
+    },
+    {"name": "Hampshire Open",
+     "date": "13th-14th May 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/hampshire_openmens_foil_17.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/hampshire_openwomens_foil_17.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/hampshire_open_mens_epee_17.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/hampshire_openwomens_epee_17.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/hampshire_openmens_sabre_17.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/hampshire_openwomens_sabre_17.htm"}
+              ]
+    },
+    {"name": "Camden Sabre Intermediate and Novice Open",
+     "date": "13th May 2017",
+     "events": [
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/2017_intermediate_ms.htm", "extra_info": "Intermediate Men's Sabre"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/2017_intermediate_ws.htm", "extra_info": "Intermediate Women's Sabre"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/2017_novice_ms.htm", "extra_info": "Novice Men's Sabre"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/2017_novice_ws.htm", "extra_info": "Novice Women's Sabre"}
+              ]
+    },
+    {"name": "Cole Cup Women's Individual Epee Satellite",
+     "date": "29th April 2017",
+     "events": [
+               {"weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/"}
+              ]
+    },
+    {"name": "British Fencing Championships",
+     "date": "23rd-24th April 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/british_championships_mf_clasgeneral.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/british_championships_wf_clasgeneral.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/british_championships_me_clasgeneral.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/british_championships_we_clasgeneral.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/british_championships_ms_clasgeneral.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/british_championships_ws_clasgeneral.htm"}
+              ]
+    },
+    {"name": "Birmingham International",
+     "date": "15th-16th April 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/birmingham_international_2017mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/birmingham_international_2017wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/birmingham_international_2017_me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/birmingham_international_2017we.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/birmingham_international_2017ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/birmingham_international_2017ws.htm"}
+              ]
+    },
+    {"name": "Glasgow Open",
+     "date": "8th-9th April 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/go_mf_2017.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/go_lf_2017.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/go_me_2017.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/go_le_2017.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/go_ms_2017.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/go_ls_2017.htm"}
+              ]
+    },
+    {"name": "Elite Women's Epee Series Event 1",
+     "date": "8th April 2017",
+     "events": [
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/seniorwomensepee_2017.html"}
+              ]
+    },
+    {"name": "Elite Epee Men's Series 5",
+     "date": "2nd April 2017",
+     "events": [
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/senior_mens_epee.html"}
+              ]
+    },
+    {"name": "Aberdeen Open",
+     "date": "25th-26th March 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/ao17mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/ao17wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/ao17me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/ao17we.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/ao17ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/ao17ws.htm"}
+              ]
+    },
+    {"name": "Leicester Open",
+     "date": "25th-26th March 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/leicester_open_2017_mens_foil.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/leicester_open_2017_womens_foil.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/leicester_open_2017_mens_epee.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/leicester_open_2017_womens_epee.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/leicester_open_2017_mens_sabre.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/leicester_open_2017_womens_sabre.htm"}
+              ]
+    },
+    {"name": "Invicta Open",
+     "date": "18th-19th March 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/invicta_open_2017_mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/invicta_open_2017_wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/invicta_open_2017_me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/invicta_open_2017_we.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/invicta_open_2017_ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/invicta_open_2017_ws.htm"}
+              ]
+    },
+    {"name": "Edinburgh Open",
+     "date": "11th-12th March 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/eo_2017_seniormensfoil.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/eo_2017_seniorwomensfoil.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/eo_2017_seniormensepee.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/eo_2017_seniorwomensepee.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/eo_2017_seniormenssabre.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/eo_2017_seniorwomenssabre.html"}
+              ]
+    },
+    {"name": "Leon Paul Novice Open",
+     "date": "11th March 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/lp_novice_open_2017_mf_clasgeneral.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/lp_novice_open_2017_wf_clasgeneral.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/lp_novice_open_2017_me_clasgeneral.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/lp_novice_open_2017_we_clasgeneral.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/lp_novice_open_2017_ms_clasgeneral.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/lp_novice_open_2017_ws_clasgeneral.htm"}
+              ]
+    },
+    {"name": "Warwick Open",
+     "date": "4th March 2017",
+     "events": [
+                {"weapon": "ALL", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/warwick_open_2017.xlsx"}
+              ]
+    },
+    {"name": "Lancaster Open",
+     "date": "25th-26th February 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/lancaster_open_2017_mf-html.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/lancaster_open_2017_wf-html.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/lancaster_open_2017_me-html.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/lancaster_open_2017_we-html.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/lancaster_open_2017_ms-html.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/lancaster_open_2017_ws-html.htm"}
+              ]
+    },
+    {"name": "Merseyside Open",
+     "date": "11th-12th February 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/moft2017mfrankings.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/moft2017wfrankings.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/moft2017merankings.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/moft2017werankings.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/moft2017msrankings.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/moft2017wsrankings.htm"}
+              ]
+    },
+    {"name": "TransPennine Open",
+     "date": "28th-29th January 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/transpenninefoil_mens-2017.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/transpenninefoil_ladies-2017.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/transpennineepee-2017.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/transpenninesabre_mens-2017.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/transpenninesabre_womens-2017.htm"}
+              ]
+    },
+    {"name": "4th British Sabre Open",
+     "date": "28th January 2017",
+     "events": [
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/4th_british_sabre_open_2017_ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/4th_british_sabre_open_2017_-_ws.htm"}
+              ]
+    },
+    {"name": "Northern Ireland Open",
+     "date": "21st-22nd January 2017",
+     "events": [
+               {"weapon": "MF", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/mf_ni_open_2017.csv"},
+               {"weapon": "WF", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/wf_ni_open_2017.csv"},
+               {"weapon": "ME", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/me_ni_open_2017.csv"},
+               {"weapon": "WE", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/we_ni_open_2017.csv"},
+               {"weapon": "MS", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/ms_ni_open_2017.csv"},
+               {"weapon": "WS", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/ws_ni_open_2017.csv"}
+              ]
+    },
+    {"name": "British U23 Sabre Championships",
+     "date": "21st January 2017",
+     "events": [
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/british_u23_sabre_2017_ms_clasgeneral.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/british_u12_sabre_2017ws_clasgeneral.htm"}
+              ]
+    },
+    {"name": "Aldershot Open",
+     "date": "14th-15th January 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/20170115-mf-aldershot.pdf"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/20170115-wf-aldershot.pdf"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/20170114-me-aldershot.pdf"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/20170114-we-aldershot.pdf"}
+              ]
+    },
+    {"name": "Cambridge Winter Tournament",
+     "date": "7th-8th Januaray 2017",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/cwt_mf_2017.pdf"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/cwt_wf_2017.pdf"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/cwt_me_2017.pdf"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/cwt_we_2017.pdf"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/cwt_ms_2017.pdf"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/cwt_ws_2017.pdf"}
+              ]
+    },
+    {"name": "M8 Open",
+     "date": "10th-11th December 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/m8_open_2016_mens_foil_res.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/m8_open_2016_ladies_foil_res.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/m8_open_2016_mens_epee_res.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/m8_open_2016_ladies_epee_res.htm"}
+              ]
+    },
+    {"name": "Oxfam Open",
+     "date": "10th-11th December 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/oxfamopen2016_mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/oxfamopen2016_wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/oxfamopen2016_me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/oxfamopen2016_we.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/oxfamopen2016_ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/oxfamopen2016_ws.htm"}
+              ]
+    },
+    {"name": "Saints Sabre Open",
+     "date": "3rd December 2016",
+     "events": [
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/saints_sabre_open_2016_menssaber.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/saints_sabre_open_2016_womenssaber.html"}
+              ]
+    },
+    {"name": "4th Leon Paul Men's Epee Open",
+     "date": "3rd December 2016",
+     "events": [
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/4th_leon_paul_me_2016_clasgeneral.htm"}
+              ]
+    },
+    {"name": "4th Leon Paul Sabre Open", 
+     "date": "26th November 2016",
+     "events": [
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/lpsa_2016_ms_clasgeneral.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/lpsa_2016_ws_clasgeneral.htm"}
+              ]
+    },
+    {"name": "Derry Open",
+     "date": "19th-20th November 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/d016mf.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/d016wf.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/d016me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/d016we.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/d016ms.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/d016ws.htm"}
+              ]
+    },
+    {"name": "Elite Epee Men's Series Event 3",
+     "date": "20th November 2016",
+     "events": [
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/seniormensepee2.html"}
+              ]
+    },
+    {"name": "4th Leon Paul Women's Epee Open",
+     "date": "19th November 2016",
+     "events": [
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/4th_leon_paul_we_open_2016__clasgeneral.htm"}
+              ]
+    },
+    {"name": "Welsh Open",
+     "date": "12th-13th November 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/welsh_open_2016mf_results.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/welsh_open_2016wf_results.htm"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/welsh_open_2016_me.htm"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/welsh_open_2016we_results.htm"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/welsh_open_2016ms_results.htm"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/welsh_open_2016ws_results.htm"}
+              ]
+    },
+    {"name": "Cocks Moors Woods Epee Championships",
+     "date": "12th November 2016",
+     "events": [
+               {"weapon": "ME", "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2016/FTEvent10.htm"},
+               {"weapon": "WE", "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2016/FTEvent9.htm"}
+              ]
+    },
+    {"name": "4th Leon Paul Foil Open",
+     "date": "5th-6th November 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/4th_lp_foil_open_2016_mf_clasgeneral.htm"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/4th_lp_foil_open_2016_wf_clasgeneral.htm"}
+              ]
+    },
+    {"name": "Leeds Open",
+     "date": "5th-6th November 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/leeds_open_2016_seniormensfoil.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/leeds_open_2016_seniorwomensfoil.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/leeds_open_2016_seniormensepee.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/leeds_open_2016_seniorwomensepee.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/leeds_open_2016_seniormenssabre.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/leeds_open_2016_seniorwomenssabre.html"}
+              ]
+    },
+    {"name": "Highland Open",
+     "date": "29th-30th October 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/ho_2016_mensfoil.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/ho_2016_womensfoil.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/ho_2016_mensepee.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/ho_2016_womensepee.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/ho_2016_menssabre.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/ho_2016_womenssabre.html"}
+              ]
+    },
+    {"name": "Elite Epee Men's Event 2",
+     "date": "30th October 2016",
+     "events": [
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/mens_epee_e2_oct_2016.html"}
+              ]
+    },  
+    {"name": "North West Open",
+     "date": "25th October 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/nw16mf.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/nw16wf.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/nw16me.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/nw16we.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/nw16ms.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/nw16ws.html"}
+              ]
+    },
+    {"name": "Scottish Open",
+     "date": "15th-16th October 2016",
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_seniormensfoil.html"},
+               {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_seniorwomensfoil.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_seniormensepee.html"},
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_mensepeesecondary.html"},
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_seniorwomensepee.html"},
+               {"weapon": "MS", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_seniormenssaber.html"},
+               {"weapon": "WS", "url": "http://britishfencing.com/uploads/files/scottish_open_2016_seniorwomenssaber.html"}
+              ]
+    },
+    {"name": "16th Milner-Barry Cup",
+     "date": "2nd October 2016",
+     "events": [
+               {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/milner-barry_2016_clasgeneral.htm"}
+              ]
+    },
+    {"name": "80th Miller-Hallett Cup",
+     "date": "1st October 2016",
+     "events": [
+               {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/miller-hallett_2016_clasgeneral.htm"}
+              ]
+    }
+]

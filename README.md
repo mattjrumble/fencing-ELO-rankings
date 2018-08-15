@@ -10,4 +10,5 @@ The aim is to apply an ELO ranking system to British Fencing senior individual r
         https://www.britishfencing.com/results-rankings/2017-18-event-results-archives/
     
     Manually convert the info on the pages into a consistent format with competition name, weapon, date, download link, and any extra info.
+    Put all that info in competitions.json.
 
