@@ -1,7 +1,8 @@
 [
     {"name": "Leon Paul Summer Open",
      "date": "19th-20th August 2017",
-     "events": [{"weapon": "MF", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_mf.htm"},
+     "events": [
+               {"weapon": "MF", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_mf.htm"},
                {"weapon": "WF", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_wf.htm"},
                {"weapon": "ME", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_me.htm"},
                {"weapon": "WE", "url": "http://britishfencing.com/uploads/files/lp_summer_open_2017_wehtm.htm"}
@@ -108,7 +109,7 @@
     {"name": "Cole Cup Women's Individual Epee Satellite",
      "date": "29th April 2017",
      "events": [
-               {"weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/"}
+               {"supported": 0, "weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/"}
               ]
     },
     {"name": "British Fencing Championships",

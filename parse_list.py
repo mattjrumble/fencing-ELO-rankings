@@ -4,7 +4,7 @@ Parse the results list,
 
 import json
             
-results_list = 'results-2016-17.json'
+results_list = 'results-2017-18.json'
 
 with open(results_list) as f:
     content = f.read()
@@ -16,5 +16,6 @@ for comp in comps:
     print("Date: {}".format(comp['date']))
     for event in comp['events']:
         if 'supported' in event and not event['supported']:
+            print("    Event not supported")
             continue
-        print("Weapon: {}. Url: {}".format(event['weapon'], event['url']))
+        print("    Weapon: {}. Url: {}".format(event['weapon'], event['url']))
