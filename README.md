@@ -12,3 +12,4 @@ The aim is to apply an ELO ranking system to British Fencing senior individual r
     Manually convert the info on the pages into a consistent format with competition name, weapon, date, download link, and any extra info.
     Put all that info in competitions.json.
 
+2.  TODO: Download the results from every event in competitions.json. enguardeservice stuff will need special handling. Have a metafile for each event.
