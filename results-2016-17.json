@@ -109,7 +109,7 @@
     {"name": "Cole Cup Women's Individual Epee Satellite",
      "date": "29th April 2017",
      "events": [
-               {"supported": 0, "weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/"}
+               {"weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/"}
               ]
     },
     {"name": "British Fencing Championships",
@@ -215,7 +215,7 @@
     {"name": "Warwick Open",
      "date": "4th March 2017",
      "events": [
-                {"supported": 0, "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/warwick_open_2017.xlsx"}
+                {"weapon": "ALL", "url": "https://www.britishfencing.com/wp-content/uploads/2018/07/warwick_open_2017.xlsx"}
               ]
     },
     {"name": "Lancaster Open",

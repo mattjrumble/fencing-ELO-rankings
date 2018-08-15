@@ -12,7 +12,7 @@
     {"name": "The GB Cup",
      "date": "23rd June 2018",
      "events": [
-                {"supported": 0, "url": "https://www.britishfencing.com/wp-content/uploads/2018/08/GB-Cup-Results-.xlsx"}               ]
+                {"weapon": "ALL", "url": "https://www.britishfencing.com/wp-content/uploads/2018/08/GB-Cup-Results-.xlsx"}               ]
     },
     {"name": "Chichester Open",
      "date": "9th-10th June 2018",
@@ -76,7 +76,12 @@
     {"name": "Birmingham International",
      "date": "March 2018",
      "events": [
-                {"supported": 0, "url": "http://www.engarde-service.com/files/bift/2018/"}               ]
+                {"weapon": "ME", "url": "http://www.engarde-service.com/files/bift/2018/me"},
+                {"weapon": "MF", "url": "http://www.engarde-service.com/files/bift/2018/mf"},
+                {"weapon": "MS", "url": "http://www.engarde-service.com/files/bift/2018/ms"},
+                {"weapon": "WE", "url": "http://www.engarde-service.com/files/bift/2018/we"},
+                {"weapon": "WF", "url": "http://www.engarde-service.com/files/bift/2018/wf"},
+                {"weapon": "WS", "url": "http://www.engarde-service.com/files/bift/2018/ws"}               ]
     },
     {"name": "Invicta Open",
      "date": "17th-18th March 2018",
@@ -264,12 +269,13 @@
     {"name": "Cocks Moors Woods Epee Championships",
      "date": "11th November 2017",
      "events": [
-                {"supported": 0, "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2017/"}               ]
+                {"weapon": "ME", "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2017/FTEvent10.htm"},
+                {"weapon": "WE", "url": "http://results.cocksmoorswoodsfencingclub.org.uk/epee2017/FTEvent9.htm"}               ]
     },
     {"name": "Cumberland Open",
      "date": "4th-5th November 2017",
      "events": [
-                {"supported": 0, "url": "http://britishfencing.com/uploads/files/cumberland_open_rankings.xlsx"}               ]
+                {"weapon": "ALL", "url": "http://britishfencing.com/uploads/files/cumberland_open_rankings.xlsx"}               ]
     },
     {"name": "North West Open",
      "date": "21st-22nd October 2017",
@@ -337,8 +343,8 @@
     {"name": "The 20th Hamlet Open Sabre",
      "date": "23rd-24th September 2017",
      "events": [
-               {"supported": 0, "weapon": "MS", "url":  "http://engarde-service.com/files/shakespearesswords/hamlet2017/ms/"},
-               {"supported": 0, "weapon": "WS", "url":  "http://engarde-service.com/files/shakespearesswords/hamlet2017/ws/"}               ]
+               {"weapon": "MS", "url":  "http://engarde-service.com/files/shakespearesswords/hamlet2017/ms/"},
+               {"weapon": "WS", "url":  "http://engarde-service.com/files/shakespearesswords/hamlet2017/ws/"}               ]
     },
     {"name": "Leon Paul Cup MF Satellite",
      "date": "17th September 2017",
@@ -349,11 +355,6 @@
      "date": "17th September 2017",
      "events": [
                {"weapon": "ME", "url":  "http://britishfencing.com/uploads/files/2017_event_7_mens_epee.html"}               ]
-    },
-    {"name": "Eden Cup Mens and Womens Foil World Cup",
-     "date": "16th September 2017",
-     "events": [
-                {"supported": 0, "url": "http://www.engarde-service.com/files/britishfencing/eden17/"}               ]
     },
     {"name": "Manchester Sabre",
      "date": "16th September 2017",
