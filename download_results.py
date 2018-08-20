@@ -8,10 +8,12 @@ the results file and metadata file for that event.
 import os
 import json
 from datetime import datetime
+import requests
 
 COMPS_FILE = 'competitions.json'
-METAFILE = 'metafile.json'
 COMPS_DOWNLOAD_DIR = 'comps'
+METAFILE = 'metafile.json'
+RESULTS_FILE = 'results'
 
 def sanitize_dir_name(dir_name):
     """Convert the given string to an appropriate directory name.
@@ -56,6 +58,19 @@ def verify_path_exists(path):
     if not os.path.exists(path):
         raise Exception("'{}' does not exist".format(path))
        
+def get_file_extension(url):
+    """Return the file extension from a given download url.
+    If no file extension found, raise an exception."""
+    if '.' not in url:
+        raise Exception("Unable to get file extension from: '{}'".format(url))
+
+    extension = url.split('.')[-1]
+
+    if '/' in extension:
+        raise Exception("Unable to get file extension from: '{}'".format(url))
+        
+    return extension
+       
 def get_comps():
     """Get a list of all competition info read
     from COMPS_FILE."""
@@ -74,9 +89,31 @@ def write_metafile(dir, comp, event):
                   "date": comp['date'],
                   "weapon": event['weapon'],
                   "url": event['url']}
+                  
+    for optional_field in ['extra_info', 'format']:
+        if optional_field in event:
+            mf_content[optional_field] = event[optional_field]
 
     with open(mf_path, 'w+') as mf:
         json.dump(mf_content, mf, sort_keys=True, indent=4)
+        
+def download_raw_results(dir, url, format=None):
+    """Download the raw page from the given url to the given dir.
+    Use the extension from the download url as the extension for the results file
+    if the format is not explicitly given as an argument."""
+    print("Download from '{}'...".format(url))
+
+    if format:
+        extension = format
+    else:
+        extension = get_file_extension(url)
+    
+    download_path = os.path.join(dir, RESULTS_FILE + '.' + extension)
+    
+    content = requests.get(url).content
+    
+    with open(download_path, 'wb+') as results_file:
+        results_file.write(content)
         
 def main():
 
@@ -91,6 +128,11 @@ def main():
             os.makedirs(event_dir_path, exist_ok=True)
             
             write_metafile(event_dir_path, comp, event)
+            
+            if 'format' in event:
+                download_raw_results(event_dir_path, event['url'], format=event['format'])
+            else:
+                download_raw_results(event_dir_path, event['url'])
         
 
 if __name__ == '__main__':

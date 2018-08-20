@@ -86,12 +86,12 @@
     {"name": "Birmingham International",
      "date": "31st March 2018",
      "events": [
-                {"weapon": "ME", "url": "http://www.engarde-service.com/files/bift/2018/me"},
-                {"weapon": "MF", "url": "http://www.engarde-service.com/files/bift/2018/mf"},
-                {"weapon": "MS", "url": "http://www.engarde-service.com/files/bift/2018/ms"},
-                {"weapon": "WE", "url": "http://www.engarde-service.com/files/bift/2018/we"},
-                {"weapon": "WF", "url": "http://www.engarde-service.com/files/bift/2018/wf"},
-                {"weapon": "WS", "url": "http://www.engarde-service.com/files/bift/2018/ws"}
+                {"weapon": "ME", "url": "http://www.engarde-service.com/files/bift/2018/me/clasfinal.htm"},
+                {"weapon": "MF", "url": "http://www.engarde-service.com/files/bift/2018/mf/clasfinal.htm"},
+                {"weapon": "MS", "url": "http://www.engarde-service.com/files/bift/2018/ms/clasfinal.htm"},
+                {"weapon": "WE", "url": "http://www.engarde-service.com/files/bift/2018/we/clasfinal.htm"},
+                {"weapon": "WF", "url": "http://www.engarde-service.com/files/bift/2018/wf/clasfinal.htm"},
+                {"weapon": "WS", "url": "http://www.engarde-service.com/files/bift/2018/ws/clasfinal.htm"}
                ]
     },
     {"name": "Invicta Open",
@@ -386,14 +386,14 @@
     {"name": "The 20th Hamlet Open Sabre",
      "date": "23rd September 2017",
      "events": [
-               {"weapon": "MS", "url": "http://engarde-service.com/files/shakespearesswords/hamlet2017/ms/"},
-               {"weapon": "WS", "url": "http://engarde-service.com/files/shakespearesswords/hamlet2017/ws/"}
+               {"weapon": "MS", "url": "http://www.engarde-service.com/files/shakespearesswords/hamlet2017/ms/clasfinal.htm"},
+               {"weapon": "WS", "url": "http://www.engarde-service.com/files/shakespearesswords/hamlet2017/ws/clasfinal.htm"}
                ]
     },
     {"name": "Leon Paul Cup MF Satellite",
      "date": "17th September 2017",
      "events": [
-               {"weapon": "MF", "url": "http://fie.org/competitions/2018/392/results/rank"}
+               {"weapon": "MF", "url": "http://fie.org/competitions/2018/392/results/rank", "format": "html"}
                ]
     },
     {"name": "Elite Epee Event 7",
@@ -548,7 +548,7 @@
     {"name": "Cole Cup Women's Individual Epee Satellite",
      "date": "29th April 2017",
      "events": [
-               {"weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/"}
+               {"weapon": "WE", "url": "http://www.engarde-service.com/files/britishfencing/cole17/we/clasfinal.htm"}
                ]
     },
     {"name": "British Fencing Championships",
