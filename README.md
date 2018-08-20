@@ -15,4 +15,6 @@ The aim is to apply an ELO ranking system to British Fencing senior individual r
     Every event should have a weapon and download url.
     Event can optionally have a format to explicitly describe the file format at the download url, and any extra_info of interest about the event itself.
 
-2.  TODO: Download the results from every event in competitions.json. Have a metafile for each event.
+2.  For each event in competitions.json, download the raw results and write an associated metafile with all information about the event ('download_results.py').
+
+3.  TODO: MATHS
