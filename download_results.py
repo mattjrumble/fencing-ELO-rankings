@@ -10,6 +10,7 @@ import json
 from datetime import datetime
 
 COMPS_FILE = 'competitions.json'
+METAFILE = 'metafile.json'
 COMPS_DOWNLOAD_DIR = 'comps'
 
 def sanitize_dir_name(dir_name):
@@ -45,22 +46,52 @@ def long_dtime_to_short(dt_str):
 
     return dtime.strftime('%Y-%m-%d')
 
-def main():
-
-    if not os.path.exists(COMPS_FILE):
-        raise Exception("'{}' does not exist".format(COMPS_FILE))
+def make_comp_dir(comp):
+    """Generate a suitable directory name from the given comp info."""
+    short_date = long_dtime_to_short(comp['date'])
+    return sanitize_dir_name(short_date + '_' + comp['name'])
+    
+def verify_path_exists(path):
+    """Raise an exception if the given path doesn't exist."""
+    if not os.path.exists(path):
+        raise Exception("'{}' does not exist".format(path))
+       
+def get_comps():
+    """Get a list of all competition info read
+    from COMPS_FILE."""
+    verify_path_exists(COMPS_FILE)
 
     with open(COMPS_FILE) as comps_file:
         content = comps_file.read()
-    comps = json.loads(content)
+    return json.loads(content)
 
-    for comp in comps:
-        short_date = long_dtime_to_short(comp['date'])
-        comp_dir = sanitize_dir_name(short_date + '_' + comp['name'])
+def write_metafile(dir, comp, event):
+    """Write a metafile in the given directory. Use information from both
+    the event and the competition as a whole."""
+    mf_path = os.path.join(dir, METAFILE)
+    
+    mf_content = {"name": comp['name'],
+                  "date": comp['date'],
+                  "weapon": event['weapon'],
+                  "url": event['url']}
 
+    with open(mf_path, 'w+') as mf:
+        json.dump(mf_content, mf, sort_keys=True, indent=4)
+        
+def main():
+
+    for comp in get_comps():
+
+        comp_dir = make_comp_dir(comp)
         comp_dir_path = os.path.join(COMPS_DOWNLOAD_DIR, comp_dir)
-
         os.makedirs(comp_dir_path, exist_ok=True)
+        
+        for event in comp['events']:
+            event_dir_path = os.path.join(comp_dir_path, event['weapon'])
+            os.makedirs(event_dir_path, exist_ok=True)
+            
+            write_metafile(event_dir_path, comp, event)
+        
 
 if __name__ == '__main__':
     main()
