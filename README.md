@@ -17,6 +17,8 @@ The aim is to apply an ELO ranking system to British Fencing senior individual r
 
 2.  For each event in competitions.json, download the raw results and write an associated metafile with all information about the event ('download_results.py').
 
-3.  TODO: Run a check over all the downloaded results for those not in a supported format, or those not separated into individual weapons (e.g. because of results formats that put all the results in one file). Either convert these into supported formats manually, or have them be ignored for the ranking calculations.
+3.  Run a check over all the downloaded results to see if they're all in supported formats and have been separated into individual weapons correctly ('pre_parse_check.py'). If any of them fail the checks, convert them into supported formats/separate into individual weapons manually, otherwise they will be ignored in the ranking calculations.
 
-4.  TODO: Maths
+4.  TODO: Parse all results into a consistent format.
+
+5.  TODO: Maths
