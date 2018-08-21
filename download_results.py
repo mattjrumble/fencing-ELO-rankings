@@ -52,12 +52,12 @@ def make_comp_dir(comp):
     """Generate a suitable directory name from the given comp info."""
     short_date = long_dtime_to_short(comp['date'])
     return sanitize_dir_name(short_date + '_' + comp['name'])
-    
+
 def verify_path_exists(path):
     """Raise an exception if the given path doesn't exist."""
     if not os.path.exists(path):
         raise Exception("'{}' does not exist".format(path))
-       
+
 def get_file_extension(url):
     """Return the file extension from a given download url.
     If no file extension found, raise an exception."""
@@ -68,9 +68,9 @@ def get_file_extension(url):
 
     if '/' in extension:
         raise Exception("Unable to get file extension from: '{}'".format(url))
-        
+
     return extension
-       
+
 def get_comps():
     """Get a list of all competition info read
     from COMPS_FILE."""
@@ -84,19 +84,19 @@ def write_metafile(dir, comp, event):
     """Write a metafile in the given directory. Use information from both
     the event and the competition as a whole."""
     mf_path = os.path.join(dir, METAFILE)
-    
+
     mf_content = {"name": comp['name'],
                   "date": comp['date'],
                   "weapon": event['weapon'],
                   "url": event['url']}
-                  
+
     for optional_field in ['extra_info', 'format']:
         if optional_field in event:
             mf_content[optional_field] = event[optional_field]
 
     with open(mf_path, 'w+') as mf:
         json.dump(mf_content, mf, sort_keys=True, indent=4)
-        
+
 def download_raw_results(dir, url, format=None):
     """Download the raw page from the given url to the given dir.
     Use the extension from the download url as the extension for the results file
@@ -107,14 +107,14 @@ def download_raw_results(dir, url, format=None):
         extension = format
     else:
         extension = get_file_extension(url)
-    
+
     download_path = os.path.join(dir, RESULTS_FILE + '.' + extension)
-    
+
     content = requests.get(url).content
-    
+
     with open(download_path, 'wb+') as results_file:
         results_file.write(content)
-        
+
 def main():
 
     for comp in get_comps():
@@ -122,18 +122,18 @@ def main():
         comp_dir = make_comp_dir(comp)
         comp_dir_path = os.path.join(COMPS_DOWNLOAD_DIR, comp_dir)
         os.makedirs(comp_dir_path, exist_ok=True)
-        
+
         for event in comp['events']:
             event_dir_path = os.path.join(comp_dir_path, event['weapon'])
             os.makedirs(event_dir_path, exist_ok=True)
-            
+
             write_metafile(event_dir_path, comp, event)
-            
+
             if 'format' in event:
                 download_raw_results(event_dir_path, event['url'], format=event['format'])
             else:
                 download_raw_results(event_dir_path, event['url'])
-        
+
 
 if __name__ == '__main__':
     main()

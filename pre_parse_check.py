@@ -12,11 +12,16 @@ RESULTS_FILE = 'results'
 ALL_WEAPONS = ['ME', 'MF', 'MS', 'WE', 'WF', 'WS']
 SUPPORTED_FORMATS = ['txt', 'htm', 'html', 'pdf', 'csv']
 
+class NoExtensionFound(Exception):
+    """Exception for when an extension cannot be found from
+    the given filename."""
+    pass
+
 def get_file_extension(filename):
     """Return the file extension from a given filename.
-    If no file extension found, raise an exception."""
+    If no file extension found, raise a NoExtensionFound exception."""
     if '.' not in filename:
-        raise Exception("Unable to get file extension from: '{}'".format(filename))
+        raise NoExtensionFound("Unable to get file extension from: '{}'".format(filename))
 
     extension = filename.split('.')[-1]
     return extension
@@ -30,7 +35,7 @@ def main():
                 continue
             event_path = os.path.join(comp_dir_path, event)
             results_files = [file for file in os.listdir(event_path) if file.startswith(RESULTS_FILE)]
-            if len(results_files) == 0:
+            if not results_file:
                 print("No results file found in '{}'".format(event_path))
                 continue
             elif len(results_files) > 1:
@@ -42,14 +47,14 @@ def main():
 
             try:
                 ext = get_file_extension(results_file)
-            except Exception as exc:
+            except NoExtensionFound as exc:
                 print(exc)
                 continue
             if ext not in SUPPORTED_FORMATS:
                 print("Unsupported extension '{}' in '{}'".format(ext, results_path))
                 continue
 
-      
+
 
 if __name__ == '__main__':
     main()
